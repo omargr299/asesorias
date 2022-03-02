@@ -1,2 +1,2 @@
-respuesta=int(input())
+respuesta = int(input())
 print(f"respuesta es {respuesta}")
