@@ -106,8 +106,47 @@ float()
 str()
 n = int(input("Ingresa un numero: "))
 n = int("Hola")
-print(type(n))'''
+print(type(n))
 
 n = 1
 n_2= 2  
 print(f"El numero es: {n} y el otro es {n_2}")
+
+"estructuras de control"
+
+if True:
+    print("esta en el if")
+
+if False:
+    print("entro en el segundo if")
+
+print(1==1)
+print(0<1)
+print(2>1)
+print(0<=1)
+print(2>=1)
+print(1!=1)
+
+numero = int(input("Ingresa un numero: "))
+
+if numero==1:
+    print("Es un uno")
+elif numero==2:
+    print("Es un dos")
+elif numero==3:
+    print("Es un tres")
+else:
+    print("No lo conozco")
+
+print("Termino el programa")
+
+numero = int(input("Ingresa un numero: "))
+
+if numero==1: print("es un uno")
+elif numero==2: print("Es un dos")
+elif numero==3: print("Es un tres")
+else: print("No lo conozco")'''
+
+numero = int(input("Ingresa un numero: "))
+
+print("Es un uno") if numero==1 else print("No lo conozco")
